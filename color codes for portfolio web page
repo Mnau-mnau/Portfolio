@@ -1,0 +1,16 @@
+color codes for portfolio web page
+
+Tiled tones
+
+$light-brown: #e8e6d7;
+$medium-brown: #cbbca5;
+$dark-blue: #152a6a;
+$med-blue: #395099;
+$light-blue: #3a2bed0;
+$very-light-blue: #cee0f2;
+
+.clearfix:after {
+	content: " ";
+	display:table;
+	clear:both;
+}

@@ -1,0 +1,10 @@
+.nm-main {
+  background-color: #395099;
+  height: 800px;
+  width: 100%;
+}
+.nm-container {
+  height: 800px;
+  width: 90%;
+  padding: 2em;
+}
