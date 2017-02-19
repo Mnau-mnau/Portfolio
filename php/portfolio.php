@@ -7,32 +7,32 @@
 					<section class="single-item slider">
     				<div class="slick-slide">
      					<a href="../images/nemesia-small.png" data-lightbox="image1" data-title="Nemesia Montana Wordpress website">
-							 	<img src="../images/nemesia-small.png"  class="slick-slide">
+							 	<img src="../images/nemesia-small.png"  class="slick-slide" alt="Nemesia Montana Wordpress website">
 							 </a>
     				</div>
     				<div class="slick-slide">
       				<a href="../images/fruta-small1.png" data-lightbox="image1" data-title="Fruta Trading Wordpress website - landing page">
-								<img src="../images/fruta-small1.png" class="slick-slide">
+								<img src="../images/fruta-small1.png" class="slick-slide" alt="Fruta Trading Wordpress website - landing page">
 							</a>
     				</div>
     				<div class="slick-slide">
       				<a href="../images/fruta-small2.png" data-lightbox="image1" data-title="Fruta Trading Wordpress website - landing page 2">
-								<img src="../images/fruta-small2.png" class="slick-slide">
+								<img src="../images/fruta-small2.png" class="slick-slide" alt="Fruta Trading Wordpress website - landing page 2">
 							</a>
     				</div>
     				<div class="slick-slide">
       				<a href="../images/fruta-small3.png" data-lightbox="image1" data-title="Fruta Trading Wordpress website - service detail page">
-								<img src="../images/fruta-small3.png" class="slick-slide">
+								<img src="../images/fruta-small3.png" class="slick-slide" alt="Fruta Trading Wordpress website - service detail page">
 							</a>
     				</div>
     				<div class="slick-slide">
       				<a href="../images/fruta-small4.png" data-lightbox="image1" data-title="Fruta Trading Wordpress website - service detail page 2">
-								<img src="../images/fruta-small4.png" class="slick-slide">
+								<img src="../images/fruta-small4.png" class="slick-slide" alt="Fruta Trading Wordpress website - service detail page 2">
 							</a>
     				</div>
     				<div class="slick-slide">
       				<a href="../images/ontee.png" data-lightbox="image1" data-title="My craft blog Wordpress website">
-								<img src="../images/ontee-small.png" class="slick-slide">
+								<img src="../images/ontee-small.png" class="slick-slide" alt="My craft blog Wordpress website">
 							</a>
     				</div>
   				</section>

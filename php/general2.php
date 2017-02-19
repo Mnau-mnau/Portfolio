@@ -1,12 +1,13 @@
 		<!-- scripts -->
 		<script src="../js/jquery.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
-		<script src="js/lightbox.js"> lightbox.option({'resizeDuration': 200,'wrapAround': true})</script>
-  		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-			<script src="../js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lightbox.js"></script>
+  		<script src="./slick/slick.js" charset="utf-8"></script>
+			<script src="../js/jquery-ui.js" charset="utf-8"></script>
   		
 		  <!--Include in separate file!-->
 		  <script type="text/javascript">
+		   lightbox.option({'resizeDuration': 200,'wrapAround': true})
     	$(document).on('ready', function() {
 		$('.variable-width').slick({dots: true,infinite: true,speed: 1000,slidesToShow: 3,centerMode: true,variableWidth: true,slidesToScroll: 3,});
 		$('.single-item').slick({speed: 1000,dots:true,});

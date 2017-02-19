@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,cAAc;EACd,YAAY,EAAE;;AAEhB;EACE,cAAc;EACd,WAAW;EACX,aAAa,EAAE","file":"main.css","sourcesContent":[".nm-main {\n  background-color: #152a6a;\n  height: 800px;\n  width: 100%; }\n\n.nm-container {\n  height: 800px;\n  width: 90%;\n  padding: 2em; }\n"]}

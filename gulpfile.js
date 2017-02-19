@@ -20,7 +20,7 @@ gulp.task('cleancss', function(){
 // less compilation
 gulp.task('sass', ['cleancss'], function(){
 	return gulp
-		.src('./sass/**/*.scss')
+		.src('./sass/main.scss')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(sourcemaps.init())
 		.pipe(postcss([autoprefixer()]))
@@ -36,10 +36,10 @@ gulp.task('watch', ['sass'], function(){
 	browserSync.init({
 		// set what files be served
 		proxy: {
-			target: "portfolio.local:8888",
+			target: "portfolio.local:8888"
 		},
 		open: 'external',
-		host: 'portfolio.local:8888',
+		host: 'portfolio.local',
 		port: 3000,
 		files: [
 			'dist/**/*.css',
@@ -47,7 +47,7 @@ gulp.task('watch', ['sass'], function(){
 		]
 	});
 
-	gulp.watch('src/sass/**/*.scss', ['sass']);
+	gulp.watch('sass/**/*.scss', ['sass']);
 });
 
 
